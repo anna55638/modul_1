@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Обо мне</title>
+  <!-- Подключение CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Подключение библиотеки для карусели (Bootstrap) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Подключение иконок -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navigation">
+      <ul>
+        <li><a href="#about">Обо мне</a></li>
+        <li><a href="#dance">Танцы</a></li>
+        <li><a href="#volleyball">Волейбол</a></li>
+        <li><a href="#university">Деятельность в вузе</a></li>
+        <li><a href="#acting">Актерское мастерство</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+        <div class="social-icons">
+          <a href="https://vk.com/egoist_ka" target="_blank" class="social-icon">
+            <i class="fab fa-vk"></i></a>
+          <a href="https://t.me/anna_skarlett" target="_blank" class="social-icon">
+            <i class="fab fa-telegram"></i></a>
+      </div>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="container" id="about">
+      <h2>О себе</h2>
+      <p>
+        Меня зовут <span class="highlight">Иржицкая Анна</span>, мне 18 лет и я родом из г. Усть-Кута. Я окончила ИНК-класс в школе своего города.
+      И сразу после поступила в ИрНИТу на "Информационные системы и технологии".
+      </p>
+      <p>На этом сайте я бы хотела рассказать Вам немного про свои увлечения и занятия.</p>
+      <div class="profile-photo">
+        <img src="dance/1.jpg" alt="Моя фотография">
+      </div>
+    </section>
+
+    <section class="container" id="hobbies">
+      <h2>Мои увлечения</h2>
+      
+      <!-- Карточка для танцев -->
+      <div class="hobby-card" id="dance">
+        <h3>Танцы</h3>
+        <p>
+        Моим самым главным и самым значимым хобби были именно танцы. Я начала заниматься танцами совсем маленькая и продолжаю до сих пор.
+        Я танцевала в самых разных направлениях: эстрадные танцы, хип-хоп, джаз-фанк, стрип-пластика, контемп и так далее. Все уже наверное и не вспомню.
+        Последние 5 лет я состою в прекрасном коллективе "Зазеркалье", который подарил кучу разных воспоминаний: мы ездили учавствовать
+        в разные города на конкурсы, выступали на корпоротивах и на крупных городский мероприятиях перед администрацией нашего города.
+        
+      </p>
+        <div id="carouselDance" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="dance/2.1.jpg" class="d-block w-100" alt="Танцы 1">
+            </div>
+            <div class="carousel-item">
+              <img src="dance/2.2.jpg" class="d-block w-100" alt="Танцы 2">
+            </div>
+            <div class="carousel-item">
+              <img src="dance/2.3.jpg" class="d-block w-100" alt="Танцы 3">
+            </div>
+            <div class="carousel-item">
+              <img src="dance/2.4.jpg" class="d-block w-100" alt="Танцы 4">
+            </div>
+            <div class="carousel-item">
+              <img src="dance/2.5.jpg" class="d-block w-100" alt="Танцы 5">
+            </div>
+            <div class="carousel-item">
+              <img src="2.6.jpg" class="d-block w-100" alt="Танцы 6">
+            </div>
+            <div class="carousel-item">
+              <img src="dance/2.7.jpg" class="d-block w-100" alt="Танцы 7">
+            </div>
+            <div class="carousel-item">
+              <img src="dance/2.8.jpg" class="d-block w-100" alt="Танцы 8">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselDance" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Предыдущий</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselDance" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Следующий</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="hobby-card" id="volleyball">
+        <h3>Волейбол</h3>
+        <p>Помимо танцев я также занималась несколько лет волейболом. Дважды учавствовала в межкольных соревнованиях нашего города и оба раза 
+          моя команда заняла первое место.
+        </p>
+        <div id="carouselSport" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="sport/3.1.jpg" class="d-block w-100" alt="Волейбол 1">
+            </div>
+            <div class="carousel-item">
+              <img src="sport/3.2.jpg" class="d-block w-100" alt="Волейбол 2">
+            </div>
+            <div class="carousel-item">
+              <img src="sport/3.3.jpg" class="d-block w-100" alt="Волейбол 3">
+            </div>
+            <div class="carousel-item">
+              <img src="sport/3.4.jpg" class="d-block w-100" alt="Волейбол 4">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselSport" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Предыдущий</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselSport" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Следующий</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="hobby-card" id="university">
+        <h3>Моя деятельность в вузе</h3>
+        <p>В ИрНИТу я принимала участие в таких мероприятиях как посвящение в студенты, встречи с наставниками, PROпредпринимательство  
+          и учавствовала в конкурсе старост.        
+        </p>
+        <div id="carouselUniversity" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="bus/4.1.jpg" class="d-block w-100" alt="Деятельность в вузе 1">
+            </div>
+            <div class="carousel-item">
+              <img src="bus/4.2.jpg" class="d-block w-100" alt="Деятельность в вузе 2">
+            </div>
+            <div class="carousel-item">
+              <img src="bus/4.3.jpg" class="d-block w-100" alt="Деятельность в вузе 3">
+            </div>
+            <div class="carousel-item">
+              <img src="bus/4.4.jpg" class="d-block w-100" alt="Деятельность в вузе 4">
+            </div>
+            <div class="carousel-item">
+              <img src="bus/4.5.jpg" class="d-block w-100" alt="Деятельность в вузе 5">
+            </div>
+            <div class="carousel-item">
+              <img src="bus/4.6.jpg" class="d-block w-100" alt="Деятельность в вузе 6">
+            </div>
+            <div class="carousel-item">
+              <img src="bus/4.7.jpg" class="d-block w-100" alt="Деятельность в вузе 7">
+            </div>
+            <div class="carousel-item">
+              <img src="bus/4.8.jpg" class="d-block w-100" alt="Деятельность в вузе 8">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselUniversity" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Предыдущий</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselUniversity" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Следующий</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="hobby-card" id="acting">
+        <h3>Актерская школа</h3>
+        <p>Чуть больше месяца я ходила на занятия в школу актерского мастерства "Гримерка". Улучшала свои навыки в ораторском и актерском искусстве 
+и училась избавляться от своих телесных и психологических зажимов.
+        </p>
+        <div id="carouselActing" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="acting/5.1.jpg" class="d-block w-100" alt="Актерская школа 1">
+            </div>
+            <div class="carousel-item">
+              <img src="acting/5.2.jpg" class="d-block w-100" alt="Актерская школа 2">
+            </div>
+            <div class="carousel-item">
+              <img src="acting/5.3.jpg" class="d-block w-100" alt="Актерская школа 3">
+            </div>
+            <div class="carousel-item">
+              <img src="acting/5.4.jpg" class="d-block w-100" alt="Актерская школа 4">
+            </div>
+            <div class="carousel-item">
+              <img src="acting/5.5.jpg" class="d-block w-100" alt="Актерская школа 5">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselActing" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Предыдущий</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselActing" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Следующий</span>
+          </button>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- Подвал сайта -->
+  <footer id="contacts">
+    <div class="social-icons">
+    <p>&copy; 2025  | 
+      <a href="https://vk.com/egoist_ka" target="_blank" class="social-icon">
+        <i class="fab fa-vk"></i>
+      </a>
+      <a href="https://t.me/anna_skarlett" target="_blank" class="social-icon">
+        <i class="fab fa-telegram"></i></a>
+    </p>
+  </div>
+  </footer>
+
+  <!-- Подключение скриптов для карусели -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script></body>
+</html>
